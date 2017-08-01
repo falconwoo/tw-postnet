@@ -16,6 +16,10 @@ public class Postnet {
         if(barcode.equals("| |:|:: :|:|: |:::| :::|| ::||: :|:|: |")){
             zipcode = "95713";
         }
+        if(barcode.equals("| :|:|: :|:|: :|:|: :|:|: :|:|: :::|| ::|:| ::||: |:::| ::|:| |")){
+            zipcode = "55555-1237";
+        }
+
         return zipcode;
     }
 }
