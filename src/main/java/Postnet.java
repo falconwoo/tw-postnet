@@ -30,40 +30,8 @@ public class Postnet {
 
         StringBuffer barcodeBuffer = new StringBuffer("| ");
         for(Integer zipCodeItem : zipCodeList){
-            switch(zipCodeItem){
-                case 0:
-                    barcodeBuffer.append("||:::").append(" ");
-                    break;
-                case 1:
-                    barcodeBuffer.append(":::||").append(" ");
-                    break;
-                case 2:
-                    barcodeBuffer.append("::|:|").append(" ");
-                    break;
-                case 3:
-                    barcodeBuffer.append("::||:").append(" ");
-                    break;
-                case 4:
-                    barcodeBuffer.append(":|::|").append(" ");
-                    break;
-                case 5:
-                    barcodeBuffer.append(":|:|:").append(" ");
-                    break;
-                case 6:
-                    barcodeBuffer.append(":||::").append(" ");
-                    break;
-                case 7:
-                    barcodeBuffer.append("|:::|").append(" ");
-                    break;
-                case 8:
-                    barcodeBuffer.append("|::|:").append(" ");
-                    break;
-                case 9:
-                    barcodeBuffer.append("|:|::").append(" ");
-                    break;
-            }
+            barcodeBuffer.append(BarcodeEnum.getBarcodeByZipcode(zipCodeItem)).append(" ");
         }
-
         barcodeBuffer.append("|");
 
         return barcodeBuffer.toString();
@@ -99,46 +67,7 @@ public class Postnet {
         List<String> zipcodeItemList = new ArrayList<String>();
 
         for(String barCodeItem : barCodeItemsWithoutFrame){
-            if (barCodeItem.equals(":::||")) {
-                zipcodeItemList.add("1");
-                continue;
-            }
-            if (barCodeItem.equals("::|:|")) {
-                zipcodeItemList.add("2");
-                continue;
-            }
-            if (barCodeItem.equals("::||:")) {
-                zipcodeItemList.add("3");
-                continue;
-            }
-            if (barCodeItem.equals(":|::|")) {
-                zipcodeItemList.add("4");
-                continue;
-            }
-            if (barCodeItem.equals(":|:|:")) {
-                zipcodeItemList.add("5");
-                continue;
-            }
-            if (barCodeItem.equals(":||::")) {
-                zipcodeItemList.add("6");
-                continue;
-            }
-            if (barCodeItem.equals("|:::|")) {
-                zipcodeItemList.add("7");
-                continue;
-            }
-            if (barCodeItem.equals("|::|:")) {
-                zipcodeItemList.add("8");
-                continue;
-            }
-            if (barCodeItem.equals("|:|::")) {
-                zipcodeItemList.add("9");
-                continue;
-            }
-            if (barCodeItem.equals("||:::")) {
-                zipcodeItemList.add("0");
-                continue;
-            }
+            zipcodeItemList.add(String.valueOf(BarcodeEnum.getZipcodeByBarcode(barCodeItem)));
         }
 
         if(zipcodeItemList.size()>5){
