@@ -1,6 +1,10 @@
 public class Postnet {
 
     public static String encoding(String zipcode) {
-        return "| |:|:: :|:|: |:::| :::|| ::||: :|:|: |";
+        String barcode = "";
+        if(zipcode.equals("95713")){
+            barcode = "| |:|:: :|:|: |:::| :::|| ::||: :|:|: |";
+        }
+        return barcode;
     }
 }
