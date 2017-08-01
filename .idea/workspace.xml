@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51858957-2f4e-4ff9-89c3-fcd9b73ed264" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Postnet.java" afterPath="$PROJECT_DIR$/src/main/java/Postnet.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,11 +19,13 @@
       <file leaf-file-name="Postnet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Postnet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            <state relative-caret-position="265">
+              <caret line="50" column="23" lean-forward="false" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
               <folding>
                 <element signature="e#713#714#0" expanded="true" />
                 <element signature="e#757#758#0" expanded="true" />
+                <element signature="e#1608#1609#0" expanded="true" />
+                <element signature="e#1649#1650#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -345,17 +348,11 @@
       <workItem from="1501598892736" duration="67000" />
       <workItem from="1501598961795" duration="2000" />
       <workItem from="1501598971317" duration="163000" />
-      <workItem from="1501599153651" duration="6785000" />
+      <workItem from="1501599153651" duration="7532000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PostnetTest - 2017.08.02 at 00h 40m 25s.xml">
-      <configuration name="PostnetTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PostnetTest - 2017.08.02 at 00h 41m 13s.xml">
-      <configuration name="PostnetTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PostnetTest - 2017.08.02 at 00h 45m 17s.xml">
       <configuration name="PostnetTest" configurationId="JUnit" />
     </history-entry>
@@ -366,6 +363,12 @@
       <configuration name="PostnetTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PostnetTest - 2017.08.02 at 01h 08m 23s.xml">
+      <configuration name="PostnetTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PostnetTest - 2017.08.02 at 01h 12m 22s.xml">
+      <configuration name="PostnetTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PostnetTest - 2017.08.02 at 01h 17m 09s.xml">
       <configuration name="PostnetTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PostnetTest_check_encoding_given_95713 - 2017.08.02 at 01h 08m 43s.xml">
@@ -382,7 +385,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7057000" />
+    <option name="totallyTimeSpent" value="7804000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3" y="25" width="1437" height="810" extended-state="0" />
@@ -520,11 +523,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Postnet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        <state relative-caret-position="265">
+          <caret line="50" column="23" lean-forward="false" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
           <folding>
             <element signature="e#713#714#0" expanded="true" />
             <element signature="e#757#758#0" expanded="true" />
+            <element signature="e#1608#1609#0" expanded="true" />
+            <element signature="e#1649#1650#0" expanded="true" />
           </folding>
         </state>
       </provider>

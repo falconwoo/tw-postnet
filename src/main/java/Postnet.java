@@ -26,14 +26,32 @@ public class Postnet {
     }
 
     public static String decoding(String barcode) {
-        String zipcode = "";
-        if(barcode.equals("| |:|:: :|:|: |:::| :::|| ::||: :|:|: |")){
-            zipcode = "95713";
-        }
-        if(barcode.equals("| :|:|: :|:|: :|:|: :|:|: :|:|: :::|| ::|:| ::||: |:::| ::|:| |")){
-            zipcode = "55555-1237";
-        }
+        String[] barcodeItems = splitBarcode(barcode);
+
+        String zipcode = transferBarcodeToZipcode(barcodeItems);
+
+
 
         return zipcode;
+    }
+
+    private static String transferBarcodeToZipcode(String[] barcodeItems) {
+
+        String zipcode = "";
+        StringBuffer barcodeItemBuffer = new StringBuffer();
+        for(String barcodeItem : barcodeItems){
+            barcodeItemBuffer.append(barcodeItem);
+        }
+        if(barcodeItemBuffer.toString().equals("||:|:::|:|:|:::|:::||::||::|:|:|")){
+            zipcode = "95713";
+        }
+        if(barcodeItemBuffer.toString().equals("|:|:|::|:|::|:|::|:|::|:|::::||::|:|::||:|:::|::|:||")){
+            zipcode = "55555-1237";
+        }
+        return zipcode;
+    }
+
+    private static String[] splitBarcode(String barcode) {
+        return barcode.split(" ");
     }
 }
