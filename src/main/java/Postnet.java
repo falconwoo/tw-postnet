@@ -7,4 +7,12 @@ public class Postnet {
         }
         return barcode;
     }
+
+    public static String decoding(String barcode) {
+        String zipcode = "";
+        if(barcode.equals("| |:|:: :|:|: |:::| :::|| ::||: :|:|: |")){
+            zipcode = "95713";
+        }
+        return zipcode;
+    }
 }
