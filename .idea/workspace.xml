@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51858957-2f4e-4ff9-89c3-fcd9b73ed264" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Postnet.class" afterPath="$PROJECT_DIR$/target/classes/Postnet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/PostnetTest.class" afterPath="$PROJECT_DIR$/target/test-classes/PostnetTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Postnet.java" afterPath="$PROJECT_DIR$/src/main/java/Postnet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/PostnetTest.java" afterPath="$PROJECT_DIR$/src/test/java/PostnetTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,15 +21,16 @@
       <file leaf-file-name="Postnet.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Postnet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="15" column="50" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="50" />
+            <state relative-caret-position="488">
+              <caret line="125" column="12" lean-forward="false" selection-start-line="125" selection-start-column="12" selection-end-line="125" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#431#440#0" expanded="true" />
                 <element signature="e#2453#2454#0" expanded="true" />
                 <element signature="e#2497#2498#0" expanded="true" />
-                <element signature="e#3348#3349#0" expanded="true" />
-                <element signature="e#3389#3390#0" expanded="true" />
+                <element signature="e#3014#3022#0" expanded="true" />
+                <element signature="e#4748#4749#0" expanded="true" />
+                <element signature="e#4789#4790#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -36,8 +39,8 @@
       <file leaf-file-name="PostnetTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/PostnetTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="32" lean-forward="false" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+            <state relative-caret-position="-20">
+              <caret line="21" column="51" lean-forward="false" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,6 +57,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>system</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -68,8 +76,8 @@
         <option value="$PROJECT_DIR$/src/main/java/AAA.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/AAATest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Postnet.java" />
         <option value="$PROJECT_DIR$/src/test/java/PostnetTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Postnet.java" />
       </list>
     </option>
   </component>
@@ -221,6 +229,26 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="PostnetTest.check_decoding_to_95713" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="tw-postnet" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PostnetTest" />
+      <option name="METHOD_NAME" value="check_decoding_to_95713" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="PostnetTest.check_encoding_given_95713" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="tw-postnet" />
@@ -342,18 +370,20 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.AAATest.aaa" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.PostnetTest" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.PostnetTest.check_encoding_given_95713" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.PostnetTest.check_encoding_with_55555_1237" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.PostnetTest.check_decoding_to_95713" />
     </list>
     <recent_temporary>
-      <list size="4">
+      <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.PostnetTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.PostnetTest.check_encoding_with_55555_1237" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.PostnetTest.check_encoding_given_95713" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.AAATest.aaa" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PostnetTest.check_decoding_to_95713" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PostnetTest.check_encoding_with_55555_1237" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.PostnetTest.check_encoding_given_95713" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.AAATest.aaa" />
       </list>
     </recent_temporary>
   </component>
@@ -372,31 +402,31 @@
       <workItem from="1501598892736" duration="67000" />
       <workItem from="1501598961795" duration="2000" />
       <workItem from="1501598971317" duration="163000" />
-      <workItem from="1501599153651" duration="9622000" />
+      <workItem from="1501599153651" duration="10808000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PostnetTest - 2017.08.02 at 01h 50m 47s.xml">
-      <configuration name="PostnetTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PostnetTest - 2017.08.02 at 01h 57m 42s.xml">
       <configuration name="PostnetTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PostnetTest_check_encoding_given_95713 - 2017.08.02 at 01h 48m 12s.xml">
-      <configuration name="PostnetTest.check_encoding_given_95713" configurationId="JUnit" />
+    <history-entry file="PostnetTest - 2017.08.02 at 02h 16m 37s.xml">
+      <configuration name="PostnetTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PostnetTest_check_encoding_given_95713 - 2017.08.02 at 01h 48m 41s.xml">
-      <configuration name="PostnetTest.check_encoding_given_95713" configurationId="JUnit" />
+    <history-entry file="PostnetTest - 2017.08.02 at 02h 16m 51s.xml">
+      <configuration name="PostnetTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PostnetTest_check_encoding_given_95713 - 2017.08.02 at 01h 50m 42s.xml">
-      <configuration name="PostnetTest.check_encoding_given_95713" configurationId="JUnit" />
+    <history-entry file="PostnetTest - 2017.08.02 at 02h 18m 58s.xml">
+      <configuration name="PostnetTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PostnetTest_check_encoding_with_55555_1237 - 2017.08.02 at 01h 50m 59s.xml">
-      <configuration name="PostnetTest.check_encoding_with_55555_1237" configurationId="JUnit" />
+    <history-entry file="PostnetTest_check_decoding_to_95713 - 2017.08.02 at 02h 15m 34s.xml">
+      <configuration name="PostnetTest.check_decoding_to_95713" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PostnetTest_check_encoding_with_55555_1237 - 2017.08.02 at 01h 54m 14s.xml">
-      <configuration name="PostnetTest.check_encoding_with_55555_1237" configurationId="JUnit" />
+    <history-entry file="PostnetTest_check_decoding_to_95713 - 2017.08.02 at 02h 15m 57s.xml">
+      <configuration name="PostnetTest.check_decoding_to_95713" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PostnetTest_check_decoding_to_95713 - 2017.08.02 at 02h 16m 32s.xml">
+      <configuration name="PostnetTest.check_decoding_to_95713" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PostnetTest_check_encoding_with_55555_1237 - 2017.08.02 at 01h 54m 28s.xml">
       <configuration name="PostnetTest.check_encoding_with_55555_1237" configurationId="JUnit" />
@@ -409,10 +439,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9894000" />
+    <option name="totallyTimeSpent" value="11080000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3" y="25" width="1437" height="810" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -422,9 +453,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24982603" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -451,7 +482,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/PostnetTest.java</url>
+          <line>4</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -556,8 +595,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PostnetTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="32" lean-forward="false" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+        <state relative-caret-position="-20">
+          <caret line="21" column="51" lean-forward="false" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -566,15 +605,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Postnet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="15" column="50" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="50" />
+        <state relative-caret-position="488">
+          <caret line="125" column="12" lean-forward="false" selection-start-line="125" selection-start-column="12" selection-end-line="125" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#431#440#0" expanded="true" />
             <element signature="e#2453#2454#0" expanded="true" />
             <element signature="e#2497#2498#0" expanded="true" />
-            <element signature="e#3348#3349#0" expanded="true" />
-            <element signature="e#3389#3390#0" expanded="true" />
+            <element signature="e#3014#3022#0" expanded="true" />
+            <element signature="e#4748#4749#0" expanded="true" />
+            <element signature="e#4789#4790#0" expanded="true" />
           </folding>
         </state>
       </provider>

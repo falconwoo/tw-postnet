@@ -93,19 +93,64 @@ public class Postnet {
     }
 
     private static String transferBarcodeToZipcode(String[] barcodeItems) {
+        String[] barCodeItemsWithoutFrame = new String[barcodeItems.length - 3];
+        System.arraycopy(barcodeItems, 1, barCodeItemsWithoutFrame, 0, barcodeItems.length - 3);
 
-        String zipcode = "";
-        StringBuffer barcodeItemBuffer = new StringBuffer();
-        for(String barcodeItem : barcodeItems){
-            barcodeItemBuffer.append(barcodeItem);
+        List<String> zipcodeItemList = new ArrayList<String>();
+
+        for(String barCodeItem : barCodeItemsWithoutFrame){
+            if (barCodeItem.equals(":::||")) {
+                zipcodeItemList.add("1");
+                continue;
+            }
+            if (barCodeItem.equals("::|:|")) {
+                zipcodeItemList.add("2");
+                continue;
+            }
+            if (barCodeItem.equals("::||:")) {
+                zipcodeItemList.add("3");
+                continue;
+            }
+            if (barCodeItem.equals(":|::|")) {
+                zipcodeItemList.add("4");
+                continue;
+            }
+            if (barCodeItem.equals(":|:|:")) {
+                zipcodeItemList.add("5");
+                continue;
+            }
+            if (barCodeItem.equals(":||::")) {
+                zipcodeItemList.add("6");
+                continue;
+            }
+            if (barCodeItem.equals("|:::|")) {
+                zipcodeItemList.add("7");
+                continue;
+            }
+            if (barCodeItem.equals("|::|:")) {
+                zipcodeItemList.add("8");
+                continue;
+            }
+            if (barCodeItem.equals("|:|::")) {
+                zipcodeItemList.add("9");
+                continue;
+            }
+            if (barCodeItem.equals("||:::")) {
+                zipcodeItemList.add("0");
+                continue;
+            }
         }
-        if(barcodeItemBuffer.toString().equals("||:|:::|:|:|:::|:::||::||::|:|:|")){
-            zipcode = "95713";
+
+        if(zipcodeItemList.size()>5){
+            zipcodeItemList.add(5,"-");
         }
-        if(barcodeItemBuffer.toString().equals("|:|:|::|:|::|:|::|:|::|:|::::||::|:|::||:|:::|::|:||")){
-            zipcode = "55555-1237";
+
+        StringBuffer zipcodeBuffer = new StringBuffer();
+        for(String zipcodeItem : zipcodeItemList){
+            zipcodeBuffer.append(zipcodeItem);
         }
-        return zipcode;
+
+        return zipcodeBuffer.toString();
     }
 
     private static String[] splitBarcode(String barcode) {
