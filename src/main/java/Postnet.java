@@ -5,6 +5,9 @@ public class Postnet {
         if(zipcode.equals("95713")){
             barcode = "| |:|:: :|:|: |:::| :::|| ::||: :|:|: |";
         }
+        if(zipcode.equals("55555-1237")){
+            barcode = "| :|:|: :|:|: :|:|: :|:|: :|:|: :::|| ::|:| ::||: |:::| ::|:| |";
+        }
         return barcode;
     }
 

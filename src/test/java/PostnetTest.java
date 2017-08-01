@@ -23,4 +23,15 @@ public class PostnetTest {
         // then
         assertTrue(zipcode.equals("95713"));
     }
+
+    @Test
+    public void check_encoding_to_55555_1237(){
+        // given
+        String zipcode = "55555-1237";
+        // when
+        String barcode = Postnet.encoding(zipcode);
+        // then
+        assertTrue(barcode.equals("| :|:|: :|:|: :|:|: :|:|: :|:|: :::|| ::|:| ::||: |:::| ::|:| |"));
+    }
+
 }
